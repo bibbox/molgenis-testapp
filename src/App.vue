@@ -1,6 +1,6 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/icon.png"> -->
-  <HelloWorld msg='Welcome message from App.vue to HelloWorld.vue'/>
+  <HelloWorld msg='Test Application, lets VUE'/>
 </template>
 
 <script>

@@ -31,12 +31,9 @@ export default {
     ressource_function: async function () {
       const url = '/api/v2/eu_bbmri_eric_biobanks'
       const { items } = await api.get(url)
-
-      console.log('Hallo')
       const items_ = items.map((obj) => this.ress.push(obj))
       console.log(items_)
       this.ressource_function_object = items[0]
-      return 'OK'
     }
   },
   watch: {
